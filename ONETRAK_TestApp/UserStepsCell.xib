@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="101" id="KGk-i7-Jjw" customClass="UserStepsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.02.2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52K-k5-bFb">
+                        <rect key="frame" x="18" y="10" width="81" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000 / 10000 steps" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J46-y4-rcl">
+                        <rect key="frame" x="176" y="14" width="124" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dP-Dp-9WR">
+                        <rect key="frame" x="37" y="60" width="44" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHs-ae-xli">
+                        <rect key="frame" x="138" y="60" width="44" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnW-WK-414">
+                        <rect key="frame" x="234.5" y="60" width="44" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="walk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xB-Um-Jlz">
+                        <rect key="frame" x="49" y="78" width="20" height="11"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="9"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aerobic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xI0-WK-Xdu">
+                        <rect key="frame" x="144" y="78" width="33" height="11"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="9"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4O-ej-eIt">
+                        <rect key="frame" x="249.5" y="78" width="15" height="11"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="9"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                <color key="tintColor" red="0.6109073971168425" green="0.72679921798811264" blue="0.85828993055555558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="RHs-ae-xli" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="3ag-UI-ifZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="9dP-Dp-9WR" secondAttribute="bottom" constant="15" id="7sl-Te-aYc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="J46-y4-rcl" secondAttribute="trailing" constant="12" id="9sQ-Nd-pL1"/>
+                    <constraint firstItem="9dP-Dp-9WR" firstAttribute="centerX" secondItem="52K-k5-bFb" secondAttribute="centerX" id="BHe-eE-Ar2"/>
+                    <constraint firstItem="Z4O-ej-eIt" firstAttribute="top" secondItem="CnW-WK-414" secondAttribute="bottom" id="Cw0-OX-J6k"/>
+                    <constraint firstItem="52K-k5-bFb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="I3T-7T-f4W"/>
+                    <constraint firstItem="CnW-WK-414" firstAttribute="centerY" secondItem="RHs-ae-xli" secondAttribute="centerY" id="Mnt-xo-mKl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CnW-WK-414" secondAttribute="trailing" constant="33.5" id="NfN-Sm-Ygn"/>
+                    <constraint firstItem="52K-k5-bFb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="V7D-pL-dC3"/>
+                    <constraint firstItem="xI0-WK-Xdu" firstAttribute="top" secondItem="RHs-ae-xli" secondAttribute="bottom" id="Wb9-VT-Rcc"/>
+                    <constraint firstItem="7xB-Um-Jlz" firstAttribute="top" secondItem="9dP-Dp-9WR" secondAttribute="bottom" id="alW-du-FNF"/>
+                    <constraint firstItem="Z4O-ej-eIt" firstAttribute="centerX" secondItem="CnW-WK-414" secondAttribute="centerX" id="iOR-sO-Qj8"/>
+                    <constraint firstItem="xI0-WK-Xdu" firstAttribute="centerX" secondItem="RHs-ae-xli" secondAttribute="centerX" id="kaa-Jc-QSb"/>
+                    <constraint firstItem="J46-y4-rcl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="m1g-hw-A7I"/>
+                    <constraint firstItem="RHs-ae-xli" firstAttribute="centerY" secondItem="9dP-Dp-9WR" secondAttribute="centerY" id="mPp-oM-y6a"/>
+                    <constraint firstItem="7xB-Um-Jlz" firstAttribute="centerX" secondItem="9dP-Dp-9WR" secondAttribute="centerX" id="wTx-Q9-C0N"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="aerobicLabel" destination="xI0-WK-Xdu" id="1Jm-eQ-TJX"/>
+                <outlet property="aerobicStepsAmount" destination="RHs-ae-xli" id="zAg-hY-2Ln"/>
+                <outlet property="dateLabel" destination="52K-k5-bFb" id="ITV-iP-Y6c"/>
+                <outlet property="runLabel" destination="Z4O-ej-eIt" id="pf0-Fv-zlI"/>
+                <outlet property="runStepsAmount" destination="CnW-WK-414" id="EAZ-Wt-eeg"/>
+                <outlet property="stepsGoalLabel" destination="J46-y4-rcl" id="saE-ag-auf"/>
+                <outlet property="walkLabel" destination="7xB-Um-Jlz" id="OJM-sD-d7P"/>
+                <outlet property="walkStepsAmount" destination="9dP-Dp-9WR" id="gcl-1X-NCU"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="82.5"/>
+        </tableViewCell>
+    </objects>
+</document>
